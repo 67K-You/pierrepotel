@@ -1,37 +1,98 @@
-## Welcome to GitHub Pages
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Pierre POTEL</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-You can use the [editor on GitHub](https://github.com/67K-You/pierrepotel/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+			<!-- Header -->
+			<header id="header" class="alt">
+				<span class="myhead"><img src="images/me.png" alt="" /></span>
+				<h1>Pierre POTEL</h1>
+				<p>Welcome to my portfolio.</p>
+			</header>
 
-### Markdown
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="#major">About me</a></li>
+							<li class="active"><a href="#posts">Robotics</a></li>
+							<li class="active"><a href="#footer">Digital arts</a></li>
+							<li><a href="personal.html">Other Projects</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/pierre-potel/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/67K-You" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+				<!-- Main -->
+					<div id="main">
 
-```markdown
-Syntax highlighted code block
+						<!-- Featured Post -->
+							<article class="post featured" id='major'>
+								<header class="major">
+									<h2><a href="#">ABOUT ME</a></h2>
+									<p>I'm a master's student interested in robotics, digital arts, AI, virtual and mixed reality, videogames and more...</p>
+									<p>I study at the oldest French engineering school <a href="http://ensta-paris.fr/"> ENSTA Paris</a> and I'm looking for a 6 months internship starting in September.</p> 
+								</header>
+								<a href="http://ensta-paris.fr/" class="image main"><img src="images/campus_ENSTA_min.jpg" alt="" /></a>
+							</article>
 
-# Header 1
-## Header 2
-### Header 3
+						<!-- Posts -->
+						<section class="posts" id='posts'>
+							    <article>
+									<header>
+										<span class="date">May, 2021</span>
+										<h2><a href="#">Rhythm generation and rhythmic adaptation in multi-robot systems</a></h2>
+									</header>
+									<a href="https://https://github.com/67K-You/SoloJam-Implementation" class="image fit"><img src="images/dr-sqiggles.jpg" alt="" /></a>
+									<p>Discover my research project at University of Oslo RITMO lab, where I create a band of musical robots. #Unity #Simulation</p>
+									<ul class="actions special">
+										<li><a href="https://https://github.com/67K-You/SoloJam-Implementation" class="button">Here</a></li>
+									</ul>
+								</article>
+							</section>
 
-- Bulleted
-- List
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>Email</h3>
+								<p>pierre.potel@ensta-paris.fr</p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+                                    <li><a href="https://www.linkedin.com/in/pierre-potel/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/67K-You" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
 
-1. Numbered
-2. List
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
 
-**Bold** and _Italic_ and `Code` text
+			</div>
 
-[Link](url) and ![Image](src)
-```
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/67K-You/pierrepotel/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+	</body>
+</html>
